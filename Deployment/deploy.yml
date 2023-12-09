@@ -5,6 +5,6 @@
     ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull image
-      shell: docker pull rahulpuram123/frontend:latest
+      shell: docker pull vamshi07/frontend:latest
     - name: Running container
-      shell: docker create -it  --name frontend rahulpuram123/frontend
+      shell: docker create -it  --name frontend vamshi07/frontend
